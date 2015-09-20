@@ -59,8 +59,8 @@ section#feature ul li{
 }
 
 section#feature ul{
-	margin:0;
-	padding:0;
+    padding:0;
+    margin:0;
 }
 
 section#title-bar{
@@ -129,8 +129,26 @@ footer p{
 }
 @media only screen and (max-width:500px) {
 
-
-
+   .jumbotron {
+      height: 450px;
+	  background-image: none;
+      text-align: center;
+	}
+    .jumbotron img.app-btn{
+        
+        width:60%;
+        margin:0 auto 30px auto;
+        display:block;
+    }
+    section#feature ul li{
+        font-size: 19px;
+    }
+   
+    footer p{
+        float: none;
+        text-align:center;
+        padding-top: 20px;
+    }
 }
 
 
